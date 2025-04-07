@@ -1,71 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Header Section -->
-  <header>
-    <div class="container">
-      <div class="logo">My Portfolio</div>
-      <nav>
-        <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <!-- Navbar -->
+    <header class="site-header">
+        <div class="logo">Your Choice</div>
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product-listing.html">Shop</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">login</a></li>
+          </ul>
+        </nav>
+      </header>
 
-  <!-- Hero Section -->
+    <!-- Hero Section -->
   <section class="hero">
-    <div class="container">
-      <h1>Hello, I'm SHEIKH TASMIA</h1>
-      <p>Web Developer | Designer | Content Creator</p>
-      <p></p>
-      <a href="contact.html" class="cta-btn">Get in Touch</a>
+    <div class="hero-content">
+      <h1>Find Your Style</h1>
+      <p>Shop the latest trends at unbeatable prices.</p>
+      <a href="#" class="hero-btn">Shop Now</a>
     </div>
   </section>
-  <section class="about-me">
-    <h2>About Me</h2>
-    <p>Hello, I'm Sheikh Tasmia,<br>
-      a passionate Web Developer and Content Creator based in Dhaka, Bangladesh.
-       With a strong background in HTML, CSS, JavaScript, and WordPress, 
-       I specialize in building creative and user-friendly websites. 
-       I believe in clean, functional design and am always looking for 
-       innovative ways to help my clients achieve their goals.</p>
-    
-    <h3><b>Skills & Expertise</b></h3>
-    <ul>
-      <li>Web Development: HTML, CSS, JavaScript</li>
-      <li>WordPress Design & Development</li>
-      <li>SEO & Digital Marketing</li>
-      <li>Graphic Design: Logo, Banner, Cover</li>
-      <li>Content Writing</li>
-    </ul>
-  
-    <h3><b>Let's Connect</b></h3>
-    <p>If you have a project in mind, feel free to reach out. 
-      I'm always open to new opportunities!</p>
-    <a href="#contact" class="cta-button">Contact Me</a>
-  </section>
-  
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <!-- Example product card -->
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 1">
 
-  <!-- Footer Section -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 SHEIKH TASMIA. All Rights Reserved.</p>
-      <div class="socials">
-        <a href="https://www.linkedin.com/in/sheikh-tasmia-384a97345/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/sheikhtasmia" target="_blank">GitHub</a>
-      </div>
-    </div>
-  </footer>
+                <h3>Product Name</h3>
+                <p>$20</p>
+                <button onclick="addToCart(1, 'Product 1', 20)">Add to Cart</button>
+            </div>
+            <!-- Add more product cards here -->
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Your Company</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
