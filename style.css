@@ -1,0 +1,313 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-color: #060606;
+    color: white;
+    padding: 8px 0;
+    text-align: left;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  header nav ul li a:hover {
+    color: #445355;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #3600e5;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+  }
+  
+  .cta-btn {
+    background-color: #0a0a0a;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 18px;
+    border-radius: 5px;
+  }
+  
+  .cta-btn:hover {
+    background-color: #385757;
+  }
+  
+
+  /* Footer Styling */
+footer {
+    background-color: #020202;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+  
+  footer .socials a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer .socials a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Ensuring Footer Stays at the Bottom */
+
+/* About Me Section */
+.about-me {
+  padding: 50px 20px;
+  background-color: #e0d5d5;
+  text-align: center;
+}
+
+.about-me h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  background-color: rgb(249, 252, 249);
+  background-size:contain;
+  color: #000000;
+}
+.about-me h3{
+  background-color: #f4f7f8;
+  text-align: center;
+  color: #000000;
+}
+.about-me p {
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.about-me ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.about-me ul li {
+  font-size: 16px;
+  color: #000000;
+}
+.cta-button {
+  display: inline-block;
+  text-decoration: none;
+  background: #0a0a0a;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+  body {
+    color: #000000;
+
+  }
+
+ 
+  /* About Section */
+  .about {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Skills Section */
+  .skills {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .skills h2 {
+    font-size: 36px;
+  }
+  
+  .skills ul {
+    list-style: none;
+  }
+  
+  .skills ul li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 60px 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+  }
+  
+  .project-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-info {
+    padding: 20px;
+  }
+  
+  .project-info h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #222;
+  }
+  
+  .project-info p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .project-info a {
+    text-decoration: none;
+    background: #00bfff;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s ease;
+  }
+  
+  .project-info a:hover {
+    background: #009acd;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact form input, .contact form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact form button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .contact form button:hover {
+    background-color: #008c99;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
